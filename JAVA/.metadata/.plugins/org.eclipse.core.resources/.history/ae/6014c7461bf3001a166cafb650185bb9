@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class noteboook{
+    public static void main(String[] args){
+        
+        Scanner hi = new Scanner(System.in);
+        int a = hi.nextInt();
+        int b = hi.nextInt();
+        hi.close();
+        
+        System.out.println(a - b);
+        
+    }
+}

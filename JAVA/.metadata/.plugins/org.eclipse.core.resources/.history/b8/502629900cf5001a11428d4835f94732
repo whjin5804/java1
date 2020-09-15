@@ -1,0 +1,10 @@
+package hello.gradle.dto;
+
+public class role {
+
+	private Integer roleID;
+	private String description;
+	
+
+	}
+

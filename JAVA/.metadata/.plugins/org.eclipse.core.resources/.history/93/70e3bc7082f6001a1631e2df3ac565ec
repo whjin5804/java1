@@ -1,0 +1,10 @@
+package hello.gradle.dto;
+
+public class role {
+
+	private Integer roleId; //java에서 필드명은 소문자로 시작하고 2번쨰문자는 대문자로 시작 : 카멜표기법
+	private String description;
+	
+
+	}
+

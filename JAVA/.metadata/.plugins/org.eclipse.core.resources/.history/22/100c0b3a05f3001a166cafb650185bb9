@@ -1,0 +1,25 @@
+package arrange;
+
+import java.util.Scanner;
+
+public class notebook {
+
+	public static void main(String[] args) {
+
+		System.out.println("hello");
+
+		Scanner sc = new Scanner(System.in);
+		
+		String name;
+		String math;
+		
+		System.out.println("안녕하세요 20");
+		name = sc.next();
+		
+		System.out.println("점수?");
+		math = sc.next();
+		
+		System.out.println(name +":"+math);
+		
+	}
+}

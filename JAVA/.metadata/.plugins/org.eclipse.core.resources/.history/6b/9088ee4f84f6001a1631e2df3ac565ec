@@ -1,0 +1,20 @@
+package hello.gradle.dao;
+import hello.gradle.dto.role;
+
+import java.sql.PreparedStatement;
+
+
+
+public class roleDao {
+	public role getrole(Integer roleId) {
+		role role = null;
+		Connection conn = null;
+		PreparedStatement ps = null;
+		Resultset rs = null;
+		
+		
+		
+		return role;
+	}
+	
+}

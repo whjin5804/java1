@@ -1,0 +1,49 @@
+package arrange;
+import java.util.Scanner;
+public class notebook{
+    public static void main(String[] args){
+        
+//    	int i = 0;
+//    	while ( i < 4 ) {
+//    		System.out.println(i);
+//    		i++;
+//    	}
+//    	
+//    			System.out.println("hello");
+//    	
+//    			
+//    	int j = 3;
+//    	do {
+//    		System.out.println(j);
+//    		System.out.println(j+1);
+//    		j++;
+//    	}
+//    	while( j <= 5);
+//    	
+//    	
+//    			System.out.println("hello2");
+//    			
+//    			
+//    	for(int x = -1; x < 2; x++)
+//    		System.out.println(x);
+    	
+Scanner k = new Scanner(System.in);
+
+int hap = 0;
+
+System.out.println("시작값입력:");
+int num1=k.nextInt();
+
+System.out.println("끝값입력:");
+int num2=k.nextInt();
+
+System.out.println("증가값입력:");
+int num3=k.nextInt();
+
+
+    		
+    		
+    		
+    		
+    }
+}

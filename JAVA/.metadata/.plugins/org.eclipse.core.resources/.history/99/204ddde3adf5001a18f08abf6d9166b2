@@ -1,0 +1,11 @@
+package arrange;
+import java.util.Scanner;
+public class notebook{
+    public static void main(String[] args){
+        
+    	int i = 0;
+    	while ( i < 4)
+    	
+    	
+    }
+}

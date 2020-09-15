@@ -1,0 +1,33 @@
+package hello.gradle.dto;
+
+public class role {
+	private Integer roleId; //java에서 필드명은 소문자로 시작하고 단어가 2개 이상 합쳐질때2번쨰문자는 대문자로 시작 : 카멜표기법
+	private String description;
+	
+	public role() {
+		
+	}
+	public role(Integer roleId, String description) {
+		super();
+		this.roleId = roleId;
+		this.description = description;
+	}
+	public Integer getRoleId() {
+		return roleId;
+	}
+	public void setRoleId(Integer roleId) {
+		this.roleId = roleId;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	@Override
+	public String toString() {
+		return "role [roleId=" + roleId + ", description=" + description + "]";
+	}
+	
+	}
+

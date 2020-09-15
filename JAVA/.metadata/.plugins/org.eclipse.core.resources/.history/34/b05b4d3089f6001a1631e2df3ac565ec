@@ -1,0 +1,5 @@
+package hello.gradle.dao;
+
+public interface Resultset {
+
+}

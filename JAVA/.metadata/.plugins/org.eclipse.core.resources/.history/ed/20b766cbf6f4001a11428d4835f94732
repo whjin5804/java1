@@ -1,0 +1,13 @@
+package hello.gradle;
+
+import java.sql.Connection;
+
+public class project1 {
+	Class.forName( "com.mysql.jdbc.Driver" )
+	public static void main(String[] args) {
+		Connection con;
+		
+
+	}
+
+}

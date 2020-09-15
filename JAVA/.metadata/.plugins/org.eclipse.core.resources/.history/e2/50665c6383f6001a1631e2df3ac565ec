@@ -1,0 +1,6 @@
+package hello.gradle.dao;
+import hello.gradle.dto;
+public class roleDao {
+	public role;
+	
+}

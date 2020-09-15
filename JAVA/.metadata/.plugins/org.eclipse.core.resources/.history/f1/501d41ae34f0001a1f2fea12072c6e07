@@ -1,0 +1,16 @@
+package project;
+
+public class varaible {
+
+	public static void main(String[] args) {
+		
+		int a = 1; //number >integer(정수) ...-2, -1 ,0 
+		System.out.println(a);
+		
+		double b = 1.1; //real number(실수)>> double ...-2.1, -2.0, -1.3...
+		System.out.println(b);
+		
+
+	}
+
+}

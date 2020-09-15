@@ -1,0 +1,9 @@
+package hello.gradle.dao;
+import hello.gradle.dto.role;
+
+public class roleDao {
+	public role getrole(Integer roleId) {
+		
+	}
+	
+}

@@ -1,0 +1,19 @@
+//공부시간이 1시간 이상일 경우 오레오 1개, 휴식 10분, 공부시간이 1시간 미만일 경우 오레오0개, 휴식 없음
+package arrange;
+
+public class Start {
+
+	public static void main(String[] args) {
+		
+		String a = "oreo";
+		double b = 1;
+		
+		System.out.println("don't eat " + a +b);
+		
+		
+		
+
+	}
+
+
+}

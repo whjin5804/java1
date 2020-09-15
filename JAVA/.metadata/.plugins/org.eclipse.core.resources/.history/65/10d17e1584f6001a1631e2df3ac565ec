@@ -1,0 +1,16 @@
+package hello.gradle.dao;
+import hello.gradle.dto.role;
+
+public class roleDao {
+	public role getrole(Integer roleId) {
+		role role = null;
+		Connection conn = null;
+		PreParedStatement ps = null;
+		Resultset rs = null;
+		
+		
+		
+		return role;
+	}
+	
+}

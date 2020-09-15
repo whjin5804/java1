@@ -1,0 +1,19 @@
+package myapp;
+
+public class AcoountingApp {
+
+	public static void main(String[] args) {
+		
+		double valueofsupply = 12345.0;
+		int valueofsupply = 12345;
+		System.out.println("value of supply : "+valueofsupply);
+		System.out.println("VAT : "+(valueofsupply*0.1) );
+		System.out.println("Total : "+(valueofsupply + valueofsupply*0.1) );
+		System.out.println("Expense : "+(valueofsupply*0.3) );
+		System.out.println("income : "+(valueofsupply-valueofsupply*0.3) );
+		System.out.println("Dividend1 : "+(valueofsupply-valueofsupply*0.3) * 0.5 );
+		System.out.println("Dividend2 : "+(valueofsupply-valueofsupply*0.3) * 0.3 );
+		System.out.println("Dividend3 : "+(valueofsupply-valueofsupply*0.3) * 0.2 );
+	}
+
+}

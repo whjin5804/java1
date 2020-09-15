@@ -1,0 +1,44 @@
+package starcraft;
+
+public class game {
+	
+	private int mineral; //미네랄
+	private int gas; // 가스
+	private int nowPopulationCount; //현재 인구수
+	private int maxPopulationCount; //최대 인구수
+	
+	public game(int mineral, int gas, int nowPopulationCount, int maxPopulationCount) {
+		this.mineral = mineral;
+		this.gas = gas;
+		this.nowPopulationCount = nowPopulationCount;
+		this.maxPopulationCount = maxPopulationCount;
+		
+	}
+	
+	public int getmineral() {
+		return mineral;
+	}
+	public void setmineral(int mineral) {
+		this.mineral = mineral;
+	}
+	public void setgas() {
+		return gas;
+	}
+	public void setgas(int gas) {
+		this.gas = gas;
+	}
+	public int getPopulationCount() {
+		return nowPopulationCount;
+	}
+	public void setNowPopulationCount(int nowPopulationCount) {
+		this.nowPopulationCount = nowPopulationCount;
+	}
+	public int getMaxPopulationCount() {
+		return maxPopulationCount;
+	}
+	public void setMaxPopulationCount(int maxPopulationCount) {
+		this.maxPopulationCount = maxPopulationCount;
+	}
+
+
+}

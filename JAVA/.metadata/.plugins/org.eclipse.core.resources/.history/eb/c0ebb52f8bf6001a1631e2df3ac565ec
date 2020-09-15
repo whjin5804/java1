@@ -1,0 +1,17 @@
+
+package arrange;
+
+import java.util.Scanner;
+
+public class Driver {
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter your buying price per share:");
+		double buyingPrice = scan.nextDouble();
+		int day = 1;
+		
+		while (true) {
+			System.out.println("Enter the closing price for day");
+		}
+	}
+}
